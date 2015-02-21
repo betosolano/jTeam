@@ -1,6 +1,8 @@
 body,html {
+  background: #E7E7E7;
   padding: 0;
   font-family: "robotoregular";
+  font-size: 1.1em;
 }
 
 /* MY APP STYLES */
@@ -18,4 +20,71 @@ body,html {
   color: #5addb5;
   font-family: "robotoregular";
   font-size: 0.813em;
+}
+/* NAVBAR DEFAULT */
+.navbar {
+  border: none;
+}
+.navbar-default {
+  background: #1d2b36;
+}
+section#filters {
+  background: #1d2b36;
+  margin: 0 2.5vw;
+  width: 95vw;
+}
+.filters_container> label {
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 0;
+  max-width: auto;
+}
+/* FILTERS */
+.filter {
+  color: #FFF;
+  border-bottom: 1px solid #CCC;
+  height: 90px;
+  padding: 8px 22px;
+  width: 100%;
+}
+.filter>i {
+  background: #FFF;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+.filter>p {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  vertical-align: top;
+  width: calc( 100% - 105px );
+}
+.filter>input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: top;
+  width: 25px;
+}
+
+.filter label {
+  top: -20px;
+}
+
+.margin_filter {
+  margin-left: 22px;
+  padding: 8px 0;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  section#filters {
+    margin: 0;
+    max-width: 270px;
+    height: calc( 100vh - 50px );
+  }
 }
