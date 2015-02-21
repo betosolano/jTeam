@@ -27,6 +27,10 @@ angular
       })
       .when('/about', {
         templateUrl: 'views/about.html',
+        controller: 'ZoneDetails'
+      })
+      .when('/zonedetails', {
+        templateUrl: 'views/details.html',
         controller: 'AboutCtrl'
       })
       .otherwise({
