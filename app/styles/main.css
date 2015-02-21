@@ -26,6 +26,26 @@ body,html {
   font-family: "robotoregular";
   font-size: 0.813em;
 }
+.text_04 {
+  color: #0F1922;
+  font-family: "robotoregular";
+  font-size: 1em;
+}
+.text_05 {
+  color: #1C5A47;
+  font-family: "robotoregular";
+  font-size: 0.875em;
+}
+.text_06 {
+  color: #404040;
+  font-family: "robotoregular";
+  font-size: 1em;
+}
+.text_07 {
+  color: #747474;
+  font-family: "robotoitalic";
+  font-size: 1em;
+}
 /* NAVBAR DEFAULT */
 .navbar {
   border: none;
