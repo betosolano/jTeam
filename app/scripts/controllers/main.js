@@ -15,4 +15,7 @@ angular.module('hackatonApp')
       'Karma'
     ];
     $('#modal-welcome').modal('show');
+	$scope.toggleMapLayer = function() {
+		alert("sdf");
+	}
   });
