@@ -4,7 +4,12 @@ body,html {
   font-family: "robotoregular";
   font-size: 1.1em;
 }
-
+.modal-dialog {
+  height: 90vh !important;
+}
+.modal-content {
+  height: 100%;
+}
 /* MY APP STYLES */
 .text_01 {
   color: #FFFFFF;
@@ -77,7 +82,7 @@ section#filters {
   padding: 8px 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 970px) {
   .navbar {
     border-radius: 0;
     margin-bottom: 0;
@@ -86,5 +91,11 @@ section#filters {
     margin: 0;
     max-width: 270px;
     height: calc( 100vh - 50px );
+  }
+  .modal-dialog {
+    height: auto;
+  }
+  .modal-content {
+    height: auto;
   }
 }
