@@ -38,7 +38,7 @@
 }
 
 .details {
-    width: 680px;
+    max-width: 680px;
 }
 
 .apt-list {
@@ -59,8 +59,8 @@
 .arrow {
     display: inline-block;
     position: relative;
-    width: 25px;
-    transform: translateY(-50%);
+    width: 35px;
+    font-size: 35px;
 }
 
 li>.circle {
