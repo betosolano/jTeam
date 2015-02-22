@@ -102,20 +102,40 @@ section#filters {
   padding: 8px 0;
 }
 
+/* MAP */
+#main_container_map {
+  height: 500px;
+  margin-top: 20px;
+  width: 100%;
+}
+#map-canvas {
+  height: 100%;
+  width: 100%;
+}
 @media (min-width: 970px) {
   .navbar {
     border-radius: 0;
     margin-bottom: 0;
   }
   section#filters {
+    display: inline-block;
     margin: 0;
     max-width: 270px;
     height: calc( 100vh - 50px );
+    vertical-align: top;
   }
   .modal-dialog {
     height: auto;
   }
   .modal-content {
     height: auto;
+  }
+  #main_container_map {
+    display: inline-block;
+    height: calc( 100vh - 50px );
+    width: calc( 100% - 270px );
+    vertical-align: top;
+    margin: 0;
+    margin-left: -5px;
   }
 }
