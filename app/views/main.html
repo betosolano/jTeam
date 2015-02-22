@@ -56,11 +56,11 @@
 <section id="filters">
   <div class="toggle_filters text_02 margin_filter">FILTROS DE BÚSQUEDA</div>
   <div class="filters_container">
-    <label for="filtro_01" ng-click="toggleMapLayer('education')">
+    <label for="filtro_01">
       <div class="filter">
         <i class="icon-educacion"></i>
         <p>EDUCACIÓN</p>
-        <input type="checkbox" id="filtro_01" name="filtro_01" id="filtro_01" name="filtro_01">
+        <input onchange="toggleMapLayer('education')" type="checkbox" id="filtro_01" name="filtro_01" id="filtro_01" name="filtro_01">
         <label for="filtro_01"></label>
       </div>
     </label>
@@ -113,4 +113,7 @@
       </div>
     </label>
   </div>
+</section>
+<section id="main_container_map">
+	<div id="map-canvas"></div>
 </section>
