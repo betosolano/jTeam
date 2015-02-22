@@ -157,7 +157,7 @@ section#filters {
   background-color: #5addb5;
 }
 
-.icon-flecha2 {
+.icon-flecha4 {
     color: #000;
     font-size: 45px;
     position: absolute;
@@ -178,6 +178,10 @@ section#filters {
 }
 
 .icon-flecha3:before {
+	content: "\e606";
+}
+
+.icon-flecha4:before {
 	content: "\e606";
 }
 .carousel-control.right {
