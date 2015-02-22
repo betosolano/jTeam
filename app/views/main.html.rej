@@ -1,0 +1,9 @@
+diff a/app/views/main.html b/app/views/main.html	(rejected hunks)
+@@ -1,7 +1,6 @@
+ <div class="modal fade" id="modal-welcome" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+-        <h4 class="modal-title">Welcome</h4>
+       
+       <div class="modal-body">
+ 

@@ -30,6 +30,22 @@
     background: url(../images/u2.png) no-repeat;
 }
 
+#img3 {
+    background: url(../images/l1.png) no-repeat;
+}
+
+#img4 {
+    background: url(../images/l2.png) no-repeat;
+}
+
+#img5 {
+    background: url(../images/l3.png) no-repeat;
+}
+
+#img6 {
+    background: url(../images/l4.png) no-repeat;
+}
+
 .comment-name {
     display: inline-block;
     width: calc(100% - 50px);
@@ -56,6 +72,10 @@
     border-color: #E7E7E7;
 }
 
+.apt-list > li:hover { 
+    background-color: #d4d4d4;
+}
+
 .arrow {
     display: inline-block;
     position: relative;
@@ -69,8 +89,12 @@ li>.circle {
 
 .apt-li {
     display: inline-block;
-    width: calc(100% - 100px - 3.125em);
+    width: calc(100% - 120px - 3.125em);
     vertical-align: center;
+}
+
+.apt-li-name {
+    margin: 0;
 }
 
 .hr {
