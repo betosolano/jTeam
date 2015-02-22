@@ -51,6 +51,10 @@
 	content: "\e606";
 }
 
+.icon-flecha3:before {
+	content: "\e606";
+}
+
 .icon-lista:before {
 	content: "\e607";
 }
