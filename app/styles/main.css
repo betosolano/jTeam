@@ -139,3 +139,40 @@ section#filters {
     margin-left: -5px;
   }
 }
+
+.carousel-caption {
+    padding-bottom: 0;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #5addb5;
+}
+
+.icon-flecha2 {
+    color: #000;
+    font-size: 45px;
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.modal-body {
+    background-color: #1d2b36;
+}
