@@ -191,3 +191,9 @@ section#filters {
 .modal-body {
     background-color: #1d2b36;
 }
+.icon-user {
+  display: inline-block;
+  font-size: 2.185em;
+  vertical-align: middle;
+  margin-right: 5px;
+}

@@ -23,7 +23,8 @@ var educationLayer, medicineLayer, securityLayer, recreationLayer, environmentLa
 function enableMarker(){
     var marker = new google.maps.Marker({
     position: new google.maps.LatLng(10.133472, -83.990512),
-    title:"Hello World!"
+    title:"Región de Interés",	
+    icon: "/images/logo_pin.png"
     });
 
     // To add the marker to the map, call setMap();
